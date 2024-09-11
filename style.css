@@ -1,14 +1,4 @@
-body { background-color: rgb(241, 178, 254);}
-
-h1 {
-    text-align: center;
-    font-size: 42px;
-    color: white
-}
-
-li{
-    color: white
-}
+body { background-color: rgb(195, 203, 245);}
 
 .first{
     color: purple
@@ -23,10 +13,24 @@ li{
 
 }
 .card-header {
+    text-align: center;
+    color: azure;
+    font-size: x-large;
+    font-family: ;
+}
 
+.card-text{
+    text-align: left;
+    color: azure;
 }
 .card-img {
-    height: 50%
+    height: 50%;
+    display: block;
+}
+
+.card-link{
+    font-size: small;
+
 }
 .card-desc {
     width: 50px;
@@ -35,10 +39,10 @@ li{
 }
 
 .blog {
-    width: 400px;
-    height: 300px;
-    background-color: rgb(126, 119, 192);
-    margin: 30px auto; /* margin X auto centers objects */
-    border: 6px solid white; 
-    padding: 30px; /* more space between e.g. words and the border/*
+    width: 350px;
+    height: 400px;
+    background-color: rgb(130, 173, 223);
+    margin: 0 auto; /* margin X auto centers objects */
+    border: 6px solid rgb(217, 233, 252); 
+    padding: 50px; /* more space between e.g. words and the border*/
 }
