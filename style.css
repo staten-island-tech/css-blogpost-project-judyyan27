@@ -8,31 +8,28 @@ body { background-color: rgb(195, 203, 245);}
     color: grey;
 }
 
-
-.card {
-
-}
 .card-header {
     text-align: center;
     color: azure;
-    font-size: x-large;
-    font-family: ;
+    font-size: 25px;
+    font-style: oblique;
 }
 
 .card-text{
     text-align: left;
-    color: azure;
+    font-size: 16px;
+    color: rgb(40, 79, 151);
 }
 .card-img {
 /*     height: 200px; */
     width: 275px; ;
-    margin: 0 auto;
+    margin: 10 auto;
     display: block;
 }
 
 .card-link{
     font-size: small;
-
+    text-align: center;
 }
 .card-desc {
     width: 50px;
@@ -40,9 +37,9 @@ body { background-color: rgb(195, 203, 245);}
 
 }
 
-.blog {
+.card {
     width: 350px;
-    height: 300;
+    height: 360;
     background-color: rgb(130, 173, 223);
     margin: 30 auto; /* margin X auto centers objects */
     border: 6px solid rgb(217, 233, 252); 
