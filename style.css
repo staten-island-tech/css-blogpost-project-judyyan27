@@ -24,7 +24,9 @@ body { background-color: rgb(195, 203, 245);}
     color: azure;
 }
 .card-img {
-    height: 50%;
+/*     height: 200px; */
+    width: 275px; ;
+    margin: 0 auto;
     display: block;
 }
 
@@ -40,9 +42,9 @@ body { background-color: rgb(195, 203, 245);}
 
 .blog {
     width: 350px;
-    height: 400px;
+    height: 300;
     background-color: rgb(130, 173, 223);
-    margin: 0 auto; /* margin X auto centers objects */
+    margin: 30 auto; /* margin X auto centers objects */
     border: 6px solid rgb(217, 233, 252); 
     padding: 50px; /* more space between e.g. words and the border*/
 }
